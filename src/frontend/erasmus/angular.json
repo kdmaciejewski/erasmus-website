@@ -87,6 +87,7 @@
               "src/assets"
             ],
             "styles": [
+              "src/assets/bootstrap/css/styles.css",
               "src/styles.css"
             ],
             "scripts": []
