@@ -8,6 +8,7 @@ import { AppheaderComponent } from './appheader/appheader.component';
 import { EventsComponent } from './events/events.component';
 import {RouterLink, RouterOutlet} from "@angular/router";
 import { EventCardComponent } from './event-card/event-card.component';
+import { ButtonModule } from "primeng/button";
 
 @NgModule({
   declarations: [
@@ -22,6 +23,7 @@ import { EventCardComponent } from './event-card/event-card.component';
     AppRoutingModule,
     RouterOutlet,
     RouterLink,
+    ButtonModule,
 
   ],
   providers: [],
